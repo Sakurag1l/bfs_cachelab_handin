@@ -72,9 +72,6 @@ void save(const char *write_name)
         }
     }
 
-    // for(int i = 0; i < num_v; i++){
-    //     fprintf(fd, "%u %u\n", vertex[i]->ori_id, vertex[i]->aft_id);
-    // }
     fclose(fd);
 
 
